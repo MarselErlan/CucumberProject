@@ -6,9 +6,9 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         plugin = {
                 "html:target/cucumberReport.html", "json:target/testReport.json"},
-        features = "src/test/resources/features",
+        features = "/Users/macbookpro/IdeaProjects/CucumberProject/src/test/resources/features",
         glue = "step_definitions",
-        tags = "@login",
+        tags = "@positive",
         dryRun = false
 
 )
