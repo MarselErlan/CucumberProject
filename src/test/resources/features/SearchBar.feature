@@ -14,5 +14,5 @@ Feature: Login Functionality
     @negative
     Scenario: negative scenario where user searches for some random letters
       When user enter "fidhjsknavdghvnakdnfkanfoidjasfkdnsfvebdfkn" in the search bar
-      Then the user should see "No results containing all your search terms were
+      Then the user should see "Your search - fidhjsknavdghvnakdnfkanfoidjasfkdnsfvebdfkn - did not match any documents."
 

@@ -28,8 +28,6 @@ public class SearchBarSteps {
         Assert.assertEquals(searchBarPage.checkApple.getText().toLowerCase(), input);
 
 
-
-
     }
 
 
@@ -39,4 +37,35 @@ public class SearchBarSteps {
         searchBarPage.searchButton.click();
 
     }
+
+
+
+    @When("user enter {string} in the search bar")
+    public void user_enter_in_the_search_bar(String input2) {
+
+        SearchBarPage searchBarPage = new SearchBarPage();
+        searchBarPage.searchBar.sendKeys(input2);
+        searchBarPage.searchButton.click();
+
+    }
+
+
+
+    @Then("the user should see {string}")
+    public void the_user_should_see(String input3) {
+
+        SearchBarPage searchBarPage = new SearchBarPage();
+
+        Assert.assertEquals(searchBarPage.checkNoResult.getText(), input3);
+
+
+    }
+
+
+
+
+
+
+
+
 }

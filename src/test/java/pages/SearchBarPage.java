@@ -36,6 +36,9 @@ public class SearchBarPage {
     @FindBy(xpath = "//span[@class=\"OSrXXb\"]")
     public WebElement checkApple;
 
+    @FindBy(xpath = "//p[@role=\"heading\"]")
+    public WebElement checkNoResult;
+
 
 
 
