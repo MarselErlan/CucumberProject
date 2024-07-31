@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="com.obiscr.chatgpt.settings.EasyCodeState">
+    <option name="projectFiles" value="$PROJECT_DIR$/src/main/resources/log4j-failed.xml;/Users/macbookpro/IdeaProjects/CucumberProject/src/main/resources/log4j2.xml;/Users/macbookpro/IdeaProjects/CucumberProject/src/test/java/pages/SaucedemPage.java;/Users/macbookpro/IdeaProjects/CucumberProject/src/test/java/pages/SearchBarPage.java;/Users/macbookpro/IdeaProjects/CucumberProject/src/test/java/step_definitions/SaucedemoSteps.java;/Users/macbookpro/IdeaProjects/CucumberProject/src/test/java/step_definitions/SearchBarSteps.java;/Users/macbookpro/IdeaProjects/CucumberProject/src/test/java/utilities/Config.java;/Users/macbookpro/IdeaProjects/CucumberProject/src/test/java/utilities/Driver.java;/Users/macbookpro/IdeaProjects/CucumberProject/src/test/java/utilities/SeleniumUtils.java;/Users/macbookpro/IdeaProjects/CucumberProject/src/test/java/CucumberRunner.java;/Users/macbookpro/IdeaProjects/CucumberProject/pom.xml;/Users/macbookpro/IdeaProjects/CucumberProject/README.md" />
+  </component>
+</project>
