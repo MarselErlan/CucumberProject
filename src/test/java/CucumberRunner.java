@@ -6,10 +6,10 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         plugin = {
                 "html:target/cucumberReport.html", "json:target/testReport.json"},
-        features = "/Users/macbookpro/IdeaProjects/CucumberProject/src/test/resources/features",
+        features = "/Users/macbookpro/IdeaProjects/CucumberProject/src/test/resources/features/SwagLabs.feature",
         glue = "step_definitions",
-        tags = "@negative",
-        dryRun = false
+        tags = "@SwagLabs",
+        dryRun = true
 
 )
 

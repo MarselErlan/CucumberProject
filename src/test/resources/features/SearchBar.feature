@@ -5,7 +5,8 @@ Feature: Login Functionality
   Background:
     Given  the user is on "https://www.google.com"
 
-    @positive
+
+  @positive
     Scenario: positive scenario where user searches for apple
       When  user enters "apple" in the search bar
       And  the user click on search button
